@@ -1,0 +1,36 @@
+/* Default styles for the carousel */  
+.carousel .slide {  
+    background-color: #f2f2f2;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    height: 300px;  
+  }  
+    
+  .carousel .slide img {  
+    max-width: 100%;  
+    max-height: 100%;  
+  }  
+    
+  .carousel .legend {  
+    color: #fff;  
+    background-color: rgba(0, 0, 0, 0.5);  
+    padding: 10px;  
+    position: absolute;  
+    bottom: 20px;  
+    left: 20px;  
+  }  
+    
+  /* Responsive styles for the carousel */  
+  @media (max-width: 768px) {  
+    .carousel .slide {  
+      height: 200px;  
+    }  
+  }  
+    
+  @media (max-width: 480px) {  
+    .carousel .slide {  
+      height: 150px;  
+    }  
+  }  
+  

@@ -1,0 +1,67 @@
+.filtercontainer {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    padding: 20px;  
+  }  
+    
+  .filterbox {  
+    /* border-radius: 10px;   */
+    background-color: #f2f2f2;  
+    padding: 20px;  
+    width: 225px;  
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 130px ;
+  }  
+  .dateinp{
+    width:94%!important;
+  }
+    
+  .filterfields {  
+    margin-bottom: 10px;  
+  }  
+    
+  .locationinput,  
+  .dateinput {  
+    margin-bottom: 10px;  
+    width: 100%;
+  }  
+    
+  .locationinput label,  
+  .dateinput label {  
+    margin-right: 10px; 
+     
+  }  
+    
+  .locationinput select,  
+  .dateinput input[type="date"] {  
+    padding: 5px;  
+    border-radius: 5px;  
+    border: 1px solid #ccc;  
+    width: 100%;  
+    margin-bottom: 5px;
+  }  
+    
+  .filterbutton {  
+    margin-top: 7px;
+    padding: 7px 16px;  
+    border-radius: 5px;  
+    background-color: rgb(238, 162, 133);  
+    color: #fff;  
+    border: none;  
+    cursor: pointer;  
+    margin-bottom: 8px;
+    border: 1px solid grey;
+    color: #04051f;
+    font-size: 13px;
+    margin-left: 5px;
+
+
+  }  
+    
+  .filterbutton:hover {  
+    background-color: #e37425;  
+  }  
+  

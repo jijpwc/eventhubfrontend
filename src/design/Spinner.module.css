@@ -1,0 +1,15 @@
+.textcenter {  
+    position:absolute;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    z-index: 4000;
+    left: 50%;
+    top: -21.5%;
+}  
+  
+.textcenter img {  
+    width: 50px; /* Adjust the width as per your requirement */  
+    height: auto;  
+}  

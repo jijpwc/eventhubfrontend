@@ -1,0 +1,151 @@
+.modal {
+    z-index: 100;
+    position: fixed;
+    top: 5vh;
+    left: 10%;
+    width: 80%;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 8px;
+  }
+  
+  .modalheader {
+    width: 97.5%;
+    padding: 1rem 0.5rem;
+    background: #ff5a09;
+    color: white;
+    display: flex;
+  }
+  
+  .modalheader h2 {
+    margin: 0.5rem;
+    width:94%;
+  }
+  
+  .modalcontent {
+    padding-left: 30px;
+  }
+  
+  .modalfooter {
+    padding: 1rem 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .modal {
+      left: calc(50% - 20rem);
+      width: 40rem;
+    }
+  }
+  
+  .modalenter {
+    transform: translateY(-10rem);
+    opacity: 0;
+  }
+  
+  .modalenteractive {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 200ms;
+  }
+  
+  .modalexit {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .modalexitactive {
+    transform: translateY(-10rem);
+    opacity: 0;
+    transition: all 200ms;
+  }
+  .form {
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    overflow:scroll;
+    height:370px;
+  }
+  .form::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .inpLabel {
+    display:block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .formInput {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:90%;
+  }
+  
+  .formInput:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  .submitBtn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgb(238, 162, 133);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitBtn:hover {
+    background-color: rgb(250, 97, 36);
+  }
+  
+  .formSelect {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    appearance: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M6 9L1 4h10L6 9z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    width:93.4%;
+  }
+  
+  .formSelect:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  .updateBtn{
+    width: 100px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(250, 97, 36);
+    color:white;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top:40px;
+    margin-left:40%;
+    margin-bottom:10px;
+  }
+  .updateBtn:hover{
+    cursor: pointer;
+    background-color:rgb(238, 162, 133);
+  }
+  .crossBtn{
+    align-self: flex-end;
+    margin-bottom: 14px;
+    font-size: 20px;
+  }
+  .crossBtn:hover{
+    cursor:pointer;
+  }

@@ -1,0 +1,70 @@
+.subscribed-events-page {  
+    text-align: center;  
+  }  
+    
+  .event-cards {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    margin-top: 10px;  
+  }  
+    
+  .event-card {  
+    flex: 0 0 calc(25% - 20px); /* Adjust the width as per your requirement */  
+    margin: 10px;  
+    padding: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    text-align: center;  
+    background-color: rgb(241, 237, 236); 
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);; 
+  }  
+    
+  @media (max-width: 768px) {  
+    .event-card {  
+      flex: 0 0 calc(50% - 20px); /* Adjust the width as per your requirement for smaller screens */  
+    }  
+  }  
+  
+  
+    
+  .event-card img {  
+    width: 100%;  
+    height: 50%;  
+    border-radius: 5px;  
+    margin-bottom: 10px;  
+  }  
+    
+  .event-card h2 {  
+    margin-bottom: 10px;  
+  }  
+    
+  .event-card p {  
+    margin-bottom: 10px;  
+  }  
+    
+  .read-more-button {  
+    background-color: rgb(238, 162, 133);  
+    color: #310202;  
+    border: none;  
+    padding: 10px 20px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    border: 1px solid rgb(247, 108, 58);
+    font-weight: bold;
+    
+  }  
+    
+  .read-more-button:hover {  
+    background-color: rgb(235, 126, 84)
+  }  
+  .btnDiv{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+  .btnDiv .read-more-button{
+    margin-left:50px;
+    width:80px;
+  }
+  

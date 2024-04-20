@@ -1,0 +1,35 @@
+.eventbar {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #eae4e4;
+  margin-bottom: 30px;
+  /* width: 40%; */
+  /* margin-top: 2%;
+  margin-left: 30%;  */
+  }  
+    
+  .eventbutton {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    flex: 1;  
+    height: 100%;  
+    border: none;  
+    background-color: transparent;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+    color: rgb(10, 10, 42);
+    font-size: 1.1rem;
+  }  
+    
+  .eventbutton:hover {  
+    background-color: #efc1ad;  
+  }  
+    
+  .eventbutton.selected {  
+    background-color: #bdb5b0;  
+    color: rgb(10, 10, 42);  
+  }  
+  

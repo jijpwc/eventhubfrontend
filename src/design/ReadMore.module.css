@@ -1,0 +1,53 @@
+.eventdescriptionpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    margin: 20px; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    overflow: auto;
+  }
+ 
+  .eventimage {
+    width: 100%;
+    max-width: 800px; 
+    margin-bottom: 20px;
+    margin-top: 5%; 
+  }
+ 
+  .eventimage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+    border: 5px solid rgb(18, 18, 18);
+    
+  }
+ 
+  .eventdetails {
+    width: 100%;
+    max-width: 1000px; 
+    padding: 20px; 
+    background-color: #f9f9f9;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    text-align: center;
+  }
+ .descdetails{
+    text-align: left;
+    margin-top: 4%;
+ }
+ .subevnt{
+    background-color: #ff5a09;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+ }
+ .subevnt:hover{
+  cursor: pointer;
+  background-color: #f89b6c;
+ }
